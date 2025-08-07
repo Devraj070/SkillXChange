@@ -50,7 +50,7 @@ export default function HeroSection() {
                 </p>
 
                 {/* CTA buttons */}
-                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
+                {/* <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
                     <Link href={'/explore-skills'} className="group relative px-8 py-4 bg-white text-slate-900 font-semibold text-lg rounded-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
                         <span className="relative z-10 flex items-center">
                             🚀 Explore Skills
@@ -61,7 +61,36 @@ export default function HeroSection() {
                     <Link href={'/messages'} className="px-8 py-4 border-2 border-white/30 text-white font-semibold text-lg rounded-lg backdrop-blur-sm hover:bg-white/10 hover:border-white/50 transition-all duration-300">
                         Get Started
                     </Link>
+                </div> */}
+
+
+                <div className="flex flex-col sm:flex-row items-center gap-6 mb-16">
+                    {/* Image */}
+                    <div className="w-32 sm:w-48">
+                        <img src="/logo.png" alt="Logo" className="w-full h-auto object-contain" />
+                    </div>
+
+                    {/* Buttons */}
+                    <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                        <Link
+                            href="/explore-skills"
+                            className="group relative px-8 py-4 bg-white text-slate-900 font-semibold text-lg rounded-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 overflow-hidden"
+                        >
+                            <span className="relative z-10 flex items-center">
+                                🚀 Explore Skills
+                            </span>
+                            <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
+                        </Link>
+
+                        <Link
+                            href="/messages"
+                            className="px-8 py-4 border-2 border-white/30 text-white font-semibold text-lg rounded-lg backdrop-blur-sm hover:bg-white/10 hover:border-white/50 transition-all duration-300"
+                        >
+                            Get Started
+                        </Link>
+                    </div>
                 </div>
+
 
                 {/* Stats */}
                 <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto mb-16 text-center">

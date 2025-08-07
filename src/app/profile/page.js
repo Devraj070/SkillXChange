@@ -9,7 +9,7 @@
 //     location: 'Bhubaneswar, India',
 //     rating: 4.9,
 //     reviews: 50,
-//     experienceYears: 5,
+//     phone: 5,
 //     languagesSpoken: ['English', 'Hindi', 'Odia'],
 //     contactEmail: 'debaraj@example.com',
 //     profileImg: 'https://randomuser.me/api/portraits/men/75.jpg',
@@ -207,12 +207,12 @@
 //                         {editMode ? (
 //                             <input
 //                                 type="number"
-//                                 value={profile.experienceYears}
-//                                 onChange={e => handleChange('experienceYears', parseInt(e.target.value))}
+//                                 value={profile.phone}
+//                                 onChange={e => handleChange('phone', parseInt(e.target.value))}
 //                                 className="w-full border px-3 py-1 rounded"
 //                             />
 //                         ) : (
-//                             <p>{profile.experienceYears} years</p>
+//                             <p>{profile.phone} years</p>
 //                         )}
 //                     </div>
 //                     <div>
@@ -451,16 +451,16 @@ export default function MyProfilePage() {
                     {/* Experience & Looking For */}
                     <section className="grid md:grid-cols-2 gap-6">
                         <div>
-                            <h3 className="font-medium text-gray-700">Experience</h3>
+                            <h3 className="font-medium text-gray-700">Phone</h3>
                             {editMode ? (
                                 <input
                                     type="number"
-                                    value={profile.experienceYears}
-                                    onChange={e => handleChange('experienceYears', parseInt(e.target.value))}
+                                    value={profile.phone}
+                                    onChange={e => handleChange('phone', parseInt(e.target.value))}
                                     className="w-full border px-3 py-2 rounded text-black"
                                 />
                             ) : (
-                                <p className="text-gray-800">{profile.experienceYears} years</p>
+                                <p className="text-gray-800">{profile.phone} </p>
                             )}
                         </div>
                         <div>

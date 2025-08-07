@@ -74,8 +74,24 @@ const steps = [
     },
 ];
 
+// const popularSkills = [
+//     "Web Development",
+//     "Graphic Design",
+//     "Digital Marketing",
+//     "Video Editing",
+//     "UI/UX Design",
+//     "Copywriting",
+//     "Photography",
+//     "Public Speaking",
+//     "Mobile App Development",
+//     "Music Production",
+// ];
+
+
+
 const popularSkills = [
-    "Web Development",
+    "Project Management",
+    "Marketing Strategy",
     "Graphic Design",
     "Digital Marketing",
     "Video Editing",
@@ -83,7 +99,7 @@ const popularSkills = [
     "Copywriting",
     "Photography",
     "Public Speaking",
-    "Mobile App Development",
+    "Web Development",
     "Music Production",
 ];
 
