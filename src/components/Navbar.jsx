@@ -36,7 +36,7 @@ import { FaRegUser } from "react-icons/fa";
 
 export default function Navbar() {
     return (
-        <nav className="bg-indigo-800/50 shadow fixed w-full z-50">
+        <nav className="bg-indigo-800 shadow fixed w-full z-50">
             <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
                 <Link href="/" className="text-2xl font-bold text-white flex justify-center items-center gap-1">
                     <img src="/logo.png" alt="Logo" className="w-10 h-10 object-contain md:block hidden" />
