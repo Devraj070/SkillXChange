@@ -43,11 +43,12 @@ export default function HeroSection() {
                 </h1>
 
                 {/* Subtitle */}
-                <p className="text-xl lg:text-2xl text-gray-300 max-w-4xl mx-auto mb-12 leading-relaxed">
+                <p className="text-md lg:text-lg text-gray-300 max-w-4xl mx-auto mb-12 leading-relaxed">
                     Connect with talented professionals worldwide. Trade expertise,
                     build meaningful relationships, and accelerate your career growth
                     through collaborative skill exchange.
                 </p>
+
 
                 {/* CTA buttons */}
                 {/* <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
@@ -64,7 +65,7 @@ export default function HeroSection() {
                 </div> */}
 
 
-                <div className="flex flex-col sm:flex-row items-center gap-6 mb-16">
+                <div className="flex flex-col  items-center gap-6 mb-10">
                     {/* Image */}
                     <div className="w-32 sm:w-48">
                         <img src="/logo.png" alt="Logo" className="w-full h-auto object-contain" />
