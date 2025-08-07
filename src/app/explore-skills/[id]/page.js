@@ -87,12 +87,10 @@ export default function ProfilePage() {
                                 </div>
 
                                 <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
-                                    <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
+                                    <Link href={`/messages?id=${user.id}`} className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
                                         💬 Start Exchange
-                                    </button>
-                                    <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-all duration-300">
-                                        📧 Contact
-                                    </button>
+                                    </Link>
+
                                 </div>
                             </div>
                         </div>
